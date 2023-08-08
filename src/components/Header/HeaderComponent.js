@@ -12,7 +12,7 @@ import {
 import React, { useEffect, useRef, useState } from "react";
 import "./HeaderComponent.css";
 import logo from "../../assets/images/logo.png";
-
+import User from "../../assets/images/User.png"
 import {
   ShoppingCartOutlined,
   UserOutlined,
@@ -224,7 +224,7 @@ const HeaderComponent = () => {
             >
               <Avatar
                 src={
-                  obj ? obj.image : <UserOutlined style={{ color: "black" }} />
+                  obj ? User : <UserOutlined style={{ color: "black" }} />
                 }
               />
             </Popover>
