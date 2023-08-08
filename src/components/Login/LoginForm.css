@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.formClass{
+    width: 30%;
+    margin: 5px;
+}
+.cardClass{
+    height: 100%;
+    width: 60%;
+    margin: 5px;
+}
+
+@media screen and (max-width: 800px){
+    .main{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .formClass{
+        width: 100%;
+        margin: 5px;
+    }
+    .cardClass{
+        display: none;
+    }
+  
+}

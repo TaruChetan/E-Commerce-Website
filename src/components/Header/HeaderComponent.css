@@ -1,0 +1,73 @@
+
+.containerheader{
+   
+    /* z-index:1000; */
+ 
+background-color: aquamarine;
+    /* position: fixed; */
+}
+/* .brand{
+    font-weight: 650;
+    font-size: 1.8rem;
+} */
+.Logo{
+    margin-left: 2em;
+    max-width: 10rem ;
+    max-height: 100%;
+    margin-top: 0.8rem;
+}
+.first, .last{
+    color: red;
+    
+}
+.menu{
+    font-size: 0.9rem;
+    color: #131313;
+   
+    /* top: 0.9rem; */
+    
+    /* position: fixed; */
+    /* right: 6rem; */
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    /* margin: auto; */
+    font-weight: 700;
+}
+
+.brand{
+ src: d;
+}
+.options{
+    margin: 1rem;
+    font-size:larger;
+    align-items:center;
+    justify-content: center;
+    /* margin: auto; */
+}
+@media screen and (max-width: 580px) {
+    .menu {
+      font-size: 0.7rem;
+    }
+    .brand{
+        font-size: 1.2rem;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .menu {
+      font-size: 0.5rem;
+    }
+    .brand{
+        font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 363px) {
+    .menu {
+      font-size: 0.4rem;
+      margin-right: 0.7;
+    }
+    .brand{
+        font-size: 0.9rem;
+    }
+  }
